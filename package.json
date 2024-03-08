@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "license": "MIT",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.2.0",
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "scripts": {
+    "build-plugin": "yarn workspace svg-webpack-plugin build",
+    "dev-plugin": "yarn workspace svg-webpack-plugin dev",
+    "dev": "yarn workspace @example/app dev",
+    "inspect-webpack": "yarn workspace @example/app inspect"
+  }
+}
